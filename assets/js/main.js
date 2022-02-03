@@ -325,7 +325,7 @@ if (isMobileDevice) {
     $('.send_mail_phone').show()
     $('.send_mail_desktop').hide()
 } else {
-    document.write("You are using Desktop");
+    // document.write("You are using Desktop");
     $('.send_mail_phone').hide()
     $('.send_mail_desktop').show()
 }
