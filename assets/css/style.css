@@ -1170,7 +1170,14 @@ button:focus,
   border: 0;
   border-bottom-color: transparent;
 }
-
+p.tokenomics {
+  color: white;
+  font-family: cursive;
+}
+p.roadmap1 {
+  color: #8ebac3;
+    font-family: system-ui;
+}
 span.round-tab {
   width: 57px;
   height: 35px;
