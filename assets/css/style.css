@@ -1172,7 +1172,7 @@ button:focus,
 }
 p.tokenomics {
   color: white;
-  font-family: cursive;
+  font-family: system-ui;
 }
 p.roadmap1 {
   color: #8ebac3;
