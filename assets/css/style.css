@@ -61,7 +61,7 @@ h6 {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 1500;
+  z-index: 1001;
   width: 100%;
   height: 100%;
   overflow: visible;
@@ -1474,4 +1474,32 @@ rect{
   cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   border-radius: 3px;
+}
+
+/* for mail css  */
+.send_mail_phone{
+  display: none;
+}
+.send_mail_desktop{
+  display: block;
+}
+#send_mail_phone_{
+  display: none;
+}
+#send_mail_desktop_{
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .send_mail_phone{
+    display: block ;
+  }
+  .send_mail_desktop{
+    display: none ;
+  }
+  #send_mail_phone_{
+    display: block ;
+  }
+  #send_mail_desktop_{
+    display: none ;
+  }
 }
